@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">android_final</string>
+    <string name="title_home">Home</string>
+    <string name="title_questions">Questions</string>
+    <string name="title_settings">Settings</string>
+    <string name="open_button_text">Открыть</string>
+</resources>

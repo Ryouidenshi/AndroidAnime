@@ -11,9 +11,6 @@ import retrofit2.http.Query
 
 interface ApiService {
 
-    @GET("anime/{id}")
-    suspend fun getAnimeById(@Path("id") id: String) : Response<Anime>
-
     @GET("search/anime")
     suspend fun getAnimeByName(@Query("q") name: String) : Response<AnimeList>
 

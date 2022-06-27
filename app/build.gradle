@@ -74,10 +74,4 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit-ktx:1.1.0'
     testImplementation 'org.robolectric:robolectric:4.4'
     kapt "androidx.room:room-compiler:$room_version"
-
-//    Для UI тестов 100: рабочее
-//    testImplementation 'junit:junit:4.13.2'
-//    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-//    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-//    kapt "androidx.room:room-compiler:$room_version"
 }

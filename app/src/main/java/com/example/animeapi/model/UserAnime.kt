@@ -16,7 +16,8 @@ import androidx.room.PrimaryKey
             childColumns = arrayOf("anime_id"),
             onDelete = CASCADE)]
 )
-data class UserAnime (
+data class
+UserAnime (
     @ColumnInfo(name = "user_id")
     val user_id: Int,
 

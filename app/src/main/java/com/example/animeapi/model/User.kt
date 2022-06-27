@@ -20,10 +20,4 @@ data class User(
 ) {
     @PrimaryKey(autoGenerate = true)
     var id: Int = 0
-
-    override fun toString(): String {
-        val userStr = "Логин: " + login + "\n" +
-                "E-mail: " + email + "\n"
-        return userStr
-    }
 }

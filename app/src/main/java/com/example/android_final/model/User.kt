@@ -1,4 +1,4 @@
-package com.example.animeapi.model
+package com.example.android_final.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

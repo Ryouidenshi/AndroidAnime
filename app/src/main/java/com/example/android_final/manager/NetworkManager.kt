@@ -1,4 +1,4 @@
-package com.example.animeapi.manager
+package com.example.android_final.manager
 
 import android.content.Context
 import android.net.ConnectivityManager

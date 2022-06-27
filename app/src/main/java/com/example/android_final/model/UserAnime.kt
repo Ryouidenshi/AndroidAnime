@@ -1,10 +1,12 @@
-package com.example.animeapi.model
+package com.example.android_final.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.ForeignKey.CASCADE
 import androidx.room.PrimaryKey
+import com.example.android_final.model.Anime
+import com.example.android_final.model.User
 
 @Entity(tableName = "user_anime", foreignKeys = [
         ForeignKey(entity = User::class,

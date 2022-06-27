@@ -3,7 +3,7 @@ package com.example.animeapi.model.db
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
-import com.example.animeapi.model.UserAnime;
+import com.example.android_final.model.UserAnime;
 
 
 @Dao

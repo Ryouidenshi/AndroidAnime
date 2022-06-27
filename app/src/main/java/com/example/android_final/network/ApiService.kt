@@ -1,7 +1,7 @@
-package com.example.animeapi.network;
+package com.example.android_final.network;
 
-import com.example.animeapi.model.Anime
-import com.example.animeapi.model.AnimeList
+import com.example.android_final.model.Anime
+import com.example.android_final.model.AnimeList
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

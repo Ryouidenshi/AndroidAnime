@@ -4,9 +4,9 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.example.animeapi.model.Anime
-import com.example.animeapi.model.User
-import com.example.animeapi.model.UserAnime
+import com.example.android_final.model.Anime
+import com.example.android_final.model.User
+import com.example.android_final.model.UserAnime
 
 @Database(entities = arrayOf(User::class, Anime::class, UserAnime::class), version = 6)
 abstract class AppDatabase : RoomDatabase() {

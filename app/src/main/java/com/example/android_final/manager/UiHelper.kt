@@ -1,10 +1,10 @@
-package com.example.animeapi.manager
+package com.example.android_final.manager
 
 import android.view.View
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.animeapi.model.Anime
-import com.example.animeapi.view.AnimeAdapter
+import com.example.android_final.model.Anime
+import com.example.android_final.view.AnimeAdapter
 
 class UiHelper {
     companion object {

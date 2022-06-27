@@ -1,10 +1,10 @@
-package com.example.animeapi.manager
+package com.example.android_final.manager
 
 import android.content.Context
-import com.example.animeapi.model.Anime
+import com.example.android_final.model.Anime
 import com.example.animeapi.model.db.AnimeDao
 import com.example.animeapi.model.db.AppDatabase
-import com.example.animeapi.network.ApiService
+import com.example.android_final.network.ApiService
 
 class AnimeManager(context: Context) {
     private var animeDao: AnimeDao? = AppDatabase.createDb(context).animeDao()

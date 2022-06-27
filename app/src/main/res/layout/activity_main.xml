@@ -4,23 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.MainActivity">
+    tools:context=".view.MainActivity"
+    android:padding="0dp">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/Theme.AnimeAPI.AppBarOverlay">
+        android:theme="@style/Theme.AnimeAPI.AppBarOverlay"
+        android:padding="0dp">
 
         <androidx.appcompat.widget.Toolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@color/teal_200"
-            app:popupTheme="@style/Theme.AnimeAPI.PopupOverlay" />
+            android:background="@color/teal_800"
+            app:popupTheme="@style/Theme.AnimeAPI.PopupOverlay"
+            android:padding="0dp"/>
 
     </com.google.android.material.appbar.AppBarLayout>
 
     <include
+        android:padding="0dp"
         android:id="@+id/include"
         layout="@layout/content_main"
         app:layout_anchor="@+id/fragment"
@@ -32,17 +36,19 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:background="?android:attr/windowBackground"
-        app:itemBackground="@color/teal_200"
+        app:itemBackground="@color/teal_800"
         app:itemIconSize="35dp"
         app:itemTextColor="@color/white"
         app:labelVisibilityMode="labeled"
-        app:menu="@menu/navigation" />
+        app:menu="@menu/navigation"
+        android:padding="0dp"/>
 
     <fragment
         android:id="@+id/fragment"
         android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
-        android:layout_height="622dp"
+        android:layout_height="676dp"
+        android:padding="0dp"
         app:defaultNavHost="true"
         app:layout_anchor="@+id/include"
         app:layout_anchorGravity="center"
